@@ -985,6 +985,16 @@ export default function App() {
             </a>.
           </p>
           <p className="hero-copy">
+            Repo:{" "}
+            <a
+              href="https://github.com/Nikolaj-K/somnia-foreign-intelligence"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Nikolaj-K/somnia-foreign-intelligence
+            </a>
+          </p>
+          <p className="hero-copy">
             Follow me on 𝕏:{" "}
             <a href="https://x.com/ErnstKummer" target="_blank" rel="noreferrer">
               SomniaLibrarian

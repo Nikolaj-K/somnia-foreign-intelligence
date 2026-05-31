@@ -4,7 +4,7 @@ Public website: <https://somnia-agent.web.app>
 
 Demo video: <https://youtu.be/5rDhxTbaQ10>
 
-[![Watch the Somnia NFT-gated vote demo](https://img.youtube.com/vi/5rDhxTbaQ10/maxresdefault.jpg)](https://youtu.be/5rDhxTbaQ10)
+[![Somnia NFT-gated vote overview](docs/readme_image.png)](https://youtu.be/5rDhxTbaQ10)
 
 Somnia Shannon Testnet voting, gated by NFT ownership on a foreign blockchain.
 Users choose ChatGPT, Claude, or DeepSeek; the vote contract asks a Somnia JSON
@@ -33,6 +33,14 @@ when the callback confirms ownership.
 
 Wallet -> Somnia vote contract -> Somnia JSON API agent -> Cloud Run ownership
 wrapper -> ERC-721 `ownerOf(tokenId)` -> callback records weighted result.
+
+Notes:
+
+- Successful voting requires ownership of one of the supported NFTs. If you do
+  not have one, redeploy the contract with your own collection configuration.
+- The core contract includes debug-only demo functionality; remove the
+  `debugOnly` / `TODO(DEMO-REMOVE)` paths before any production or trustless
+  deployment.
 
 Operational notes, deployment history, and video narration are indexed in
 [`docs/README.md`](docs/README.md).
