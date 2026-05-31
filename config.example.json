@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "rpc_url": null,
+  "wallet_address": null,
+  "vote_contract_address": null,
+  "probe_contract_address": null,
+  "mock_platform_address": null,
+  "platform_contract": "0x037Bb9C718F3f7fe5eCBDB0b600D607b52706776",
+  "json_api_agent_id": 0,
+  "json_api_method_selector": "0x00000000",
+  "ownership_response_kind": "uint",
+  "agent_price_per_validator_stt": "0",
+  "agent_subcommittee_size": 3,
+  "selector_path": "votingPower",
+  "decimals": 0,
+  "base_ownership_url": "https://example.com/owns",
+  "reward_stt": "1.02",
+  "max_choice": 3,
+  "request_deposit_stt": "0",
+  "gas_limit": 3000000,
+  "gas_price_gwei": null,
+  "solc_binary": null
+}

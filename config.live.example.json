@@ -1,0 +1,23 @@
+{
+  "network": "testnet",
+  "rpc_url": null,
+  "wallet_address": null,
+  "vote_contract_address": "0x919eD02eba4772a72d6C75430026709009858754",
+  "probe_contract_address": "0x535A56B754e705ab251cD89C4Aa43e62c5F27B3F",
+  "mock_platform_address": null,
+  "platform_contract": "0x037Bb9C718F3f7fe5eCBDB0b600D607b52706776",
+  "json_api_agent_id": 13174292974160097713,
+  "json_api_method_selector": "0x3bbc1302",
+  "ownership_response_kind": "uint",
+  "agent_price_per_validator_stt": "0.03",
+  "agent_subcommittee_size": 3,
+  "selector_path": "votingPower",
+  "decimals": 0,
+  "base_ownership_url": "https://somnia-ownership-wrapper-735868209397.europe-west1.run.app/owns",
+  "reward_stt": "1.02",
+  "max_choice": 3,
+  "request_deposit_stt": "0",
+  "gas_limit": 3000000,
+  "gas_price_gwei": null,
+  "solc_binary": null
+}
