@@ -4,7 +4,7 @@ Signing signatures on the Shannon Testnet, gated by NFT ownership on a foreign b
 
 Public website: <https://somnia-agent.web.app>
 
-Demo video: <https://youtu.be/5rDhxTbaQ10>
+Explainer video: <https://youtu.be/5rDhxTbaQ10>
 
 [![Somnia NFT-gated vote overview](docs/readme_image.png)](https://youtu.be/5rDhxTbaQ10)
 
