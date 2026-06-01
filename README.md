@@ -36,7 +36,7 @@ cache files.
 
 ## Architecture
 
-Wallet -> Somnia vote contract -> Somnia JSON API agent -> Cloud Run ownership
-wrapper -> ERC-721 `ownerOf(tokenId)` -> callback records weighted result.
+Wallet → Somnia vote contract → Somnia JSON API agent → Cloud Run ownership
+wrapper → ERC-721 `ownerOf(tokenId)` → callback records weighted result.
 
 Operational notes, deployment history, and video narration are indexed in `docs/README.md`.
