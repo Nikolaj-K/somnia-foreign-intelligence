@@ -1,27 +1,24 @@
 # Foreign intelligence: cross-chain, but on-chain
 
+Signing signatures on the Shannon Testnet, gated by NFT ownership on a foreign blockchain. The usecase shown off here is a poll. The vote contract asks a Somnia JSON API agent to call a public ownership wrapper, then records a weighted vote only when the callback confirms ownership.
+
 Public website: <https://somnia-agent.web.app>
 
 Demo video: <https://youtu.be/5rDhxTbaQ10>
 
 [![Somnia NFT-gated vote overview](docs/readme_image.png)](https://youtu.be/5rDhxTbaQ10)
 
-Somnia Shannon Testnet voting, gated by NFT ownership on a foreign blockchain.
-Users choose ChatGPT, Claude, or DeepSeek; the vote contract asks a Somnia JSON
-API agent to call a public ownership wrapper, then records a weighted vote only
-when the callback confirms ownership.
-
 ## How To Try
 
 1. Open the public website.
 2. Connect an EVM wallet on Somnia Shannon Testnet.
 3. Choose Quills Adventure or Bored Ape Yacht Club.
-4. Enter `<TOKEN_ID>`, choose ChatGPT, Claude, or DeepSeek, then submit.
+4. Enter `<TOKEN_ID>`, choose option "ChatGPT", "Claude", or "DeepSeek", and then submit.
 5. Wait for the Somnia callback to accept or reject the vote.
 
 ## Live Configuration
 
-- Vote contract: `0x919eD02eba4772a72d6C75430026709009858754`
+- Vote contract (Shannon): `0x919eD02eba4772a72d6C75430026709009858754`
 - Ownership wrapper response example [here](https://somnia-ownership-wrapper-735868209397.europe-west1.run.app/owns?collectionId=2&wallet=0x0000000000000000000000000000000000000000&tokenId=809)
 
 Successful voting requires ownership of one of the supported NFTs.
